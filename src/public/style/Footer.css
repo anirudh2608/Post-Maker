@@ -1,0 +1,19 @@
+.footer {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0rem 1rem 0rem 1rem;
+}
+
+.footer span {
+    color: white;
+}
+
+.footer-active-navigator {
+    font-variation-settings:
+        'FILL' 1,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 48;
+}

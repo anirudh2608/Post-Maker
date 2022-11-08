@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+
+
+.Profile_name{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    align-items: center;
+    padding-left: 2%;
+    border-radius: 5px;
+    font-size: 2rem;
+    background-color: white;
+    box-shadow: 0px 3px 16px #888888;
+}
+
+.Profile_name h4{
+    border-radius: 50%;
+    text-align: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    background-color: aliceblue;
+    margin-right: 0.8rem;
+}
+
+.Profile_name h1{
+    font-family: 'Courgette', cursive;
+}
+
+.Profile_container h2{
+    text-align: center;
+}
+
+@media screen and (max-width: 425px) {
+ 
+    .Profile_name h4{
+        height: 30px;
+        width: 30px;
+        font-size: 1.1rem;
+    }
+    
+    .Profile_name h1{
+        font-size: 2rem;
+    }
+    
+    }
+
+@media screen and (max-width: 375px) {
+ 
+    .Profile_name h4{
+        height: 30px;
+        width: 30px;
+        font-size: 1.1rem;
+    }
+    
+    .Profile_name h1{
+        font-size: 2rem;
+    }
+    
+    }

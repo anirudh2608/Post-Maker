@@ -1,0 +1,129 @@
+.Post_container {
+    width: 80%;
+    margin: auto;
+    border: 2px solid #888888;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 6px 7px 6px 1px #888888;
+    padding: 20px;
+    margin-top: 1.5rem;
+    word-wrap: break-word;
+}
+
+.Post_content {
+    display: flex;
+    flex-direction: column;
+}
+
+.Post_content input {
+    background-color: white;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    font-size: large;
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid black; 
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.Post_content textarea {
+    background-color: white;
+    margin-bottom: 1rem;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 80px;
+    max-height: 200px;
+}
+
+.Post_profile_edit {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Post_profile_image {
+    display: flex;
+    align-items: center;
+}
+
+.Post_profile_image h5 {
+    margin-right: 0.3rem;
+    background-color: #eeeeee;
+    border-radius: 700px;
+}
+
+.Post_content p {
+    margin-bottom: 1rem;
+}
+
+.Post_footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Post_time {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Post_time p {
+    font-size: 12px;
+    margin-left: 15px;
+}
+
+.Post_time p:first-child {
+    margin-left: 0px;
+}
+
+
+.Post_functions {
+    display: flex;
+    align-items: center;
+}
+
+.Post_functions span {
+    margin-left: 0.5rem;
+}
+
+.Post_functions button {
+    padding: 5px;
+    width: 60px;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+.Post_functions button:hover {
+    background-color: white;
+    color: black;
+}
+
+.bookmarked {
+    font-variation-settings:
+        'FILL' 1,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 48;
+    cursor: pointer;
+}
+
+.liked {
+    font-variation-settings:
+        'FILL' 1,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 48;
+    cursor: pointer;
+    color: red;
+}

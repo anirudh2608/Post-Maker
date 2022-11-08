@@ -1,0 +1,36 @@
+.Add_Post {
+    justify-content: center;
+    align-items: center;
+}
+
+.Add_Post h6 {
+    background-color: black;
+    color: white;
+    margin-right: 12%;
+    margin-top: 1rem;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 15px;
+    border: 2px solid black;
+}
+
+.Add_Post h6:hover {
+    background-color: white;
+    color: black;
+}
+
+
+
+@media screen and (max-width: 425px) {
+
+    .Add_Post h6 {
+        margin-right: 12%;
+        margin-top: 0.4rem;
+        padding: 5px;
+        font-size: 10px;
+    }
+
+}

@@ -1,0 +1,36 @@
+.Liked_Post{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-top: 2rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    box-shadow: 0px 3px 16px #888888;
+    background-color: white;
+}
+
+.Liked_Post span,h3{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.Liked_Post span{
+        font-variation-settings:
+            'FILL' 1,
+            'wght' 400,
+            'GRAD' 0,
+            'opsz' 48;
+    }
+
+.Liked_Post h3{
+    margin-left: 10px;    
+}
+
+@media screen and (max-width: 425px) {
+ 
+    .Liked_Post span,h3{
+        font-size: 1.5rem;
+    }
+    
+    }

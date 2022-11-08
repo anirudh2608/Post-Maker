@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+.newUser {
+    height: 100vh;
+    width: 100vw;
+    background-color: whitesmoke;
+    position: relative;
+}
+
+.newUser_container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    width: 33vw;
+    /* text-align: center; */
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.newUser h3 {
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 2rem;
+}
+
+.newUser h4 {
+    position: relative;
+}
+
+.newUser input {
+    height: 5vh;
+    width: 29vw;
+    border: 1px solid black;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.newUser button {
+    margin-top: 0.5rem;
+    background-color: black;
+    color: white;
+    height: 5vh;
+    width: 29vw;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 15px;
+    border: 2px solid black;
+}
+
+.newUser button:hover {
+    background-color: white;
+    color: black;
+}
+
+@media screen and (max-width: 768px) {
+
+    .newUser_container {
+        height: 60vh;
+        width: 60%;
+    }
+
+    .newUser h3 {
+        font-size: 1.8rem;
+        margin-bottom: 1rem;
+    }
+
+    .newUser input {
+        width: 90%;
+    }
+
+    .newUser button {
+        width: 90%;
+    }
+
+}
+
+
+@media screen and (max-width: 450px) {
+
+    .newUser h3 {
+        font-size: 1.2rem;
+        margin-bottom: 0.8rem;
+    }
+
+    .newUser h4 {
+        font-size: 0.7rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .newUser_container {
+        height: 40vh;
+        width: 83vw;
+    }
+
+
+}
